@@ -1,0 +1,170 @@
+.Navbar {
+  background-color: #22201b;
+  height: 80px;
+}
+.nav_container {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.nav_button {
+  color: #524c3d;
+  text-decoration: none;
+  background-color: #22201b;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
+  display: flex;
+}
+
+.nav_button:hover {
+  color: #e8e0cc;
+}
+
+.contact_btn {
+  color: white !important;
+  background-color: #de9b03;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  font-size: 17px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact_btn a {
+  color: black;
+  text-decoration: none;
+}
+
+/* HEADER */
+
+.header {
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #22201b;
+  background-image: url("../assets/header.png");
+  background-repeat: no-repeat;
+  background-size: 450px 450px;
+  background-position: center center;
+  text-align: center;
+  height: 400px;
+}
+.header_wrapper {
+  padding: 0 15px;
+  max-width: 660px;
+  color: white;
+}
+
+.header_title {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.header_title em {
+  color: #de9b03;
+}
+.header_btn {
+  background-color: #de9b03;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 0.5em;
+}
+.contact_btn:hover,
+.header_btn:hover {
+  background-color: #f5b930;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  margin-top: 10px;
+}
+/* ABOUT */
+
+.about {
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 400px;
+}
+
+.about_subtitle,
+.description {
+  width: 800px;
+  font-size: medium;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+}
+
+/* PROJECTS */
+.projects {
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+  justify-content: center;
+  height: 400px;
+}
+.project_title,
+.experience_title {
+  display: flex;
+  justify-content: center;
+}
+
+/* EXPERIANCE */
+.experience {
+  background-color: #22201b;
+  color: white;
+  height: 700px;
+  padding: 40px 0;
+}
+.experience-item {
+  font-size: medium;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+.experience-link {
+  color: white;
+  text-decoration: none;
+}
+.experience-link:hover {
+  color: #de9b03;
+}
+
+/* CONTACTS */
+.contacts {
+  background-color: #22201b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+.contacts_btn {
+  display: flex;
+  gap: 10px;
+}
+.scroll_btn {
+  border-color: white;
+  border-radius: 50px;
+  background-color: #22201b;
+}
+.scroll_btn:hover {
+  border-color: #de9b03;
+}
